@@ -1,5 +1,53 @@
 # Restreamer
 
+## 2.9.0
+
+### UI v1.10.0 > v1.11.0
+
+-   Add allow to stream HEVC and AV1 to Youtube via RTMP
+-   Add librav1e AV1 encoder
+-   Add support for AV1 CUDA decoding ([PR 46](https://github.com/datarhei/restreamer-ui/pull/46))
+-   Add FFmpeg 6 support
+-   Add HEVC VideoToolbox encoder
+-   Fix anonymize error message ([#688](https://github.com/datarhei/restreamer/issues/688))
+-   Fix chromecast config ([#37](https://github.com/datarhei/restreamer-ui/issues/37))
+
+### Core v16.14.0 > v16.15.0
+
+-   Add migrating to ffmpeg 6
+-   Fix missing process data if process has been deleted meanwhile
+-   Fix maintaining the metadata on process config update (datarhei/restreamer#698)
+-   Fix placeholder parsing
+-   Fix concurrent memfs accesses
+-   Fix memfs concurrent read and write performance
+
+### 🧡💚💜 Thank you to all Patrons and donors
+
+-   Jacob Fritsche
+-   Martin H.
+-   Paulo Gonçalves
+-   Philipp Burkart
+-   Mark Stephens
+-   Fabian Stoll
+-   Perry Johnson
+-   Alex O'Carroll
+-   Fiberian
+-   Ivan Hašek
+-   krischan941
+-   Doug Roberts
+-   Bassim Charafeddine
+-   josue osorto
+-   Raketenbaum
+-   Byron Garcia
+-   Jeff Moe
+-   Ramakrishna Chillara
+-   Eduardo Sarabia
+-   Giovanni Russo
+-   Gioele Cerati
+-   Blueman2 (Robert G. Pearse)
+-   Alex Fuhr
+-   Frank Schulz
+
 ## 2.8.0
 
 ### UI v1.9.0 > v1.10.0
@@ -144,8 +192,8 @@
 
 -   Add alsa support by default
 -   Add min, max, avg of incoming framerates for each input and output (jsonstats patch)
--   Add keyframe count for each input and output (jsonstats patch) 
--   Add size in bytes for each input and output (jsonstats patch) 
+-   Add keyframe count for each input and output (jsonstats patch)
+-   Add size in bytes for each input and output (jsonstats patch)
 -   Mod bumps FFmpeg to v5.1.3
 
 ### Thank you to all Patrons and donors
@@ -226,13 +274,13 @@
 
 ### Attention
 
-Restreamer v2.4.0 includes an update to FFmpeg v5.1.2. 
+Restreamer v2.4.0 includes an update to FFmpeg v5.1.2.
 All necessary process adjustments are activated at the first start of the Restreamer.
 
-If you want to switch back to the old version follow these steps:    
+If you want to switch back to the old version follow these steps:  
 [https://docs.datarhei.com/restreamer/installing/migration](https://docs.datarhei.com/restreamer/installing/migration)
 
-*Hint: The backup restores only the previous processes.*
+_Hint: The backup restores only the previous processes._
 
 ### Restreamer UI v1.4.0 > v1.5.0
 
@@ -276,7 +324,7 @@ If you want to switch back to the old version follow these steps:
 -   Mod Nvidia CUDA v11.4.2 > v11.7.1
 -   Mod Intel Media Driver v20.1.1
 
-*We recommend OpenMAX IL for Raspberry PI (3/4) with a 32-bit operating system.*
+_We recommend OpenMAX IL for Raspberry PI (3/4) with a 32-bit operating system._
 
 ### Documentation
 
