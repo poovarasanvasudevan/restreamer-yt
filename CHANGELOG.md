@@ -1,5 +1,42 @@
 # Restreamer
 
+## 2.10.0
+
+### UI v1.11.0 > v1.12.0
+
+-   Add option to select different SRT stream in wizard
+-   Add option to select different RTMP stream in wizard
+-   Fix selecting other than first audio stream ([#710](https://github.com/datarhei/restreamer/issues/710))
+-   Fix reset of previous audio settings when editing profile ([#730](https://github.com/datarhei/restreamer/issues/730))
+-   Fix RTMP URL for receive mode
+
+### 🧡💚💜 Thank you to all Patrons and donors
+
+-   Jacob Fritsche
+-   Martin H.
+-   Paulo Gonçalves
+-   Philipp Burkart
+-   Mark Stephens
+-   Fabian Stoll
+-   Perry Johnson
+-   Alex O'Carroll
+-   Fiberian
+-   Ivan Hašek
+-   krischan941
+-   Doug Roberts
+-   Bassim Charafeddine
+-   josue osorto
+-   Raketenbaum
+-   Byron Garcia
+-   Jeff Moe
+-   Ramakrishna Chillara
+-   Eduardo Sarabia
+-   Giovanni Russo
+-   Gioele Cerati
+-   Blueman2 (Robert G. Pearse)
+-   Alex Fuhr
+-   Frank Schulz
+
 ## 2.9.0
 
 ### UI v1.10.0 > v1.11.0
