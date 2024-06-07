@@ -1,5 +1,55 @@
 # Restreamer
 
+## 2.11.0
+
+### v1.12.0 > v1.13.0
+
+-   Add to allow stream hints in case probing fails
+-   Mod enables ff-loglevel and prepares the logging component
+-   Mod uses official Instagram-RTMP target
+-   Mod Remove unused imports
+-   Mod Update translations
+-   Mod updates dependencies
+-   Fix player position
+
+### Core v16.15.0 > v16.16.0
+
+-   Add ConnectionIdleTimeout to RTMP server
+-   Add WithLevel() to Logger interface
+-   Fix datarhei/restreamer#759
+-   Fix various RTMP bugs
+-   Fix wrong log output when receiving a RTMP stream
+-   Fix skipping session handling if collectors are nil
+-   Update dependencies
+
+### 🧡💚💜 Thank you to all Patrons and donors
+
+-   Michael Shepherd
+-   Jacob Fritsche
+-   Martin H.
+-   Paulo Gonçalves
+-   Philipp Burkart
+-   Mark Stephens
+-   Fabian Stoll
+-   Perry Johnson
+-   Alex O'Carroll
+-   Fiberian
+-   Ivan Hašek
+-   krischan941
+-   Doug Roberts
+-   Bassim Charafeddine
+-   josue osorto
+-   Raketenbaum
+-   Byron Garcia
+-   Jeff Moe
+-   Ramakrishna Chillara
+-   Eduardo Sarabia
+-   Giovanni Russo
+-   Gioele Cerati
+-   Blueman2 (Robert G. Pearse)
+-   Alex Fuhr
+-   Frank Schulz
+
 ## 2.10.0
 
 ### UI v1.11.0 > v1.12.0
